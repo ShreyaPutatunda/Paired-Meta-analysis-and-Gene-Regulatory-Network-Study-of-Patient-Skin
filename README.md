@@ -6,3 +6,5 @@ The scripts are designed to perform specific analyses. The recommended order of 
 Script 7 is performed after discovery of DETH genes whose discovey is described the submitted article in details. Script 8 is performed only after narrowing down the genes from the results of script 7. 
 
 The functions used throughout this computational pipeline are defined separately in script 9"Functions" and also in individual scripts when they are used for first.
+
+The fisrt release v.1.0 is published in zenodo: ([![DOI](https://zenodo.org/badge/1372940661.svg)](https://doi.org/10.5281/zenodo.22795775))
