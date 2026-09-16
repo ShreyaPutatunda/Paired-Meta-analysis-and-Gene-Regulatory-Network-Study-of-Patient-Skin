@@ -1,2 +1,8 @@
 # Paired-Meta-analysis-and-Gene-Regulatory-Network-Study-of-Patient-Skin
 Reproducible computational pipeline for analysis of multi-cohort RNA-seq datasets in atopic dermatitis, incorporating differential expression, meta-analysis, WGCNA, transcriptional regulatory network inference, hub-gene identification, machine-learning-based biomarker analysis, and drug–gene interaction profiling
+
+The scripts are designed to perform specific analyses. The recommended order of exceuting the script is as per the number given in the file name. Script 1 demonstrates how a consolidated table for mapping different gene identifiers is created. The table is frequently used in several other scripts for cross-mapping. Script 2 and 3 both contribute to sequential discovery of differentially expressed genes. Script 4 demonstrates the amalgamation of all 11 datasets to generate a master integrated dataset subsequently used for WGCNA and/or GENIE3.  Script 5 perform WGCNA, identifies differentially regulated modules and performs hub gene analysis. Script 6 performs a GENIE3 to discover differentially regulated links. Script 5 and 6 can be performed laterally. It is not necessary to excute script 5 before script 6 but script 4 should preceed both. Alternatively, script 2 and 3 can be performed after script 4, 5, or 6 as but script 2 must preceed script 3.
+
+Script 7 is performed after discovery of DETH genes whose discovey is described the submitted article in details. Script 8 is performed only after narrowing down the genes from the results of script 7. 
+
+The functions used throughout this computational pipeline are defined separately in script 9"Functions" and also in individual scripts when they are used for first.
